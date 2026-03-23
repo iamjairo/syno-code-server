@@ -1,0 +1,4 @@
+[app]
+app_name = "JS - Editor"
+description = "VS Code in the browser for Synology NAS"
+index_title = "JS - Editor"

@@ -1,0 +1,21 @@
+{
+    "code-server.js": {
+        "IamJairo.CodeServer.AppInstance": {
+            "type": "app",
+            "title": "app:app_name",
+            "version": "0.1",
+            "icon": "images/code-server-{0}.png",
+            "texts": "texts",
+            "allowMultiInstance": false,
+            "allUsers": false,
+            "appWindow": "IamJairo.CodeServer.AppWindow",
+            "depend": ["IamJairo.CodeServer.AppWindow"]
+        },
+        "IamJairo.CodeServer.AppWindow": {
+            "type": "lib",
+            "title": "app:app_name",
+            "icon": "images/code-server-{0}.png",
+            "texts": "texts"
+        }
+    }
+}
