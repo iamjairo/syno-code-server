@@ -15,6 +15,7 @@ service_prestart() {
 	nohup ${SYNOPKG_PKGDEST}/lib/code-server/bin/code-server \
 		--config ${SYNOPKG_PKGDEST}/etc/code-server.yaml \
 		--user-data-dir ${SYNOPKG_PKGVAR}/data \
+		--base-path /code-server \
 		>${LOG_FILE} 2>&1 &
 	echo $! >"${PID_FILE}"
 }
