@@ -27,6 +27,7 @@ STARTABLE = yes
 SERVICE_SETUP = src/service-setup.sh
 SSS_SCRIPT = src/start-stop-status.sh
 
+COPY_TARGET = nop
 POST_STRIP_TARGET = code_server_strip_target
 
 CODE_SERVER_ARCH =
